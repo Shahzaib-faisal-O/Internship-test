@@ -1,0 +1,32 @@
+.footer-container {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-container span {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+    .footer-container {
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .footer-container span {
+        font-size: 0.8rem;
+    }
+}
