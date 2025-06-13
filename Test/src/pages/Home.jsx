@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
-import mobile from '../assets/mobile-screen.PNG'
+import mobile from '../assets/mobile-screen.png'
 const Home = () => {
   return (
     <>
